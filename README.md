@@ -9,7 +9,10 @@ vps部署脚本仓库
 
 ``` 
 yum install wget -y
-wget 
+自行修改脚本名
+wget https://raw.githubusercontent.com/zarte/vps_deploy/main/
+chmod 777 ./vpsinit.sh
+./vpsinit.sh
 ```
 
 ## 脚本详细说明
